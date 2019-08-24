@@ -1,0 +1,38 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em;
+}
+input{
+    border:none;
+}
+.form-control{
+    border:none;
+    border-bottom: 1px solid rgb(98, 237, 247);
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    border-bottom:blue;
+    outline-offset: 0;
+    outline-width: 0;
+    outline: none;
+
+}
+#spinner{
+    width: 20%;
+    height: 20%;
+    display: none;
+    margin: 0 auto;
+}
+#success {
+    display: none;
+    height: 3em;
+    width: 100%;
+    margin: 1em auto;
+}
